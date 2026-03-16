@@ -1,0 +1,24 @@
+Pré-requisitos: PHP, MySQL (opcional - ver abaixo), composer
+
+1) Instalar bibliotecas/pacotes Laravel (executar via prompt de comando na pasta raiz do projeto)
+   
+composer install
+
+2) Criar banco de dados Mysql "ExemploAPIBD" ou alterar para banco de dados Sqllite
+
+Parâmetros no arquivo .env
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=ExemploAPIBD
+DB_USERNAME=root
+DB_PASSWORD=
+
+ou
+
+DB_CONNECTION=sqlite
+
+3) Executar as migrações via prompt de comandos na pasta raiz do projeto
+
+php artisan migrate
