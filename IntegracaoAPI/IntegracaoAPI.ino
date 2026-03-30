@@ -4,8 +4,8 @@
 #include <ArduinoJson.h>
 
 // Configurações do Wi-Fi
-const char* ssid = "Galaxy A04e 2db4";
-const char* password = "gvbk0357";
+const char* ssid = "prtcandido";
+const char* password = "Abc123Xyz";
 
 // Configurações da API
 const String serverPath = "https://prtctec.com.br/api/iot_leituras";
