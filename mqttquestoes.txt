@@ -1,0 +1,209 @@
+
+1.
+Qual é o modelo de comunicação utilizado pelo protocolo MQTT?
+
+
+A.
+Cliente-Servidor (Request-Response)
+
+
+B.
+UDP Broadcast
+
+
+C.
+Peer-to-Peer (P2P)
+
+
+D.
+Publish/Subscribe (Publicador/Assinante)
+
+
+/////////////
+
+2.
+Qual é a função principal do Eclipse Mosquitto em uma arquitetura IoT?
+
+
+A.
+Servir como compilador para código C# e Java.
+
+
+B.
+Atuar como o Broker MQTT para gerenciar mensagens entre clientes.
+
+
+C.
+Atuar como um banco de dados de séries temporais.
+
+
+D.
+Funcionar como um gateway físico de hardware.
+
+////////////////
+
+3.
+Sobre os níveis de QoS (Quality of Service) no MQTT, o que garante o nível 1?
+
+
+A.
+A mensagem é entregue no máximo uma vez (At most once).
+
+
+B.
+A mensagem é entregue pelo menos uma vez (At least once).
+
+
+C.
+A mensagem não é entregue se o cliente estiver offline.
+
+
+D.
+A mensagem é entregue exatamente uma vez (Exactly once).
+
+/////////////////
+
+4.
+Qual caractere é utilizado como wildcard (coringa) para substituir apenas UM nível em uma hierarquia de tópicos?
+
+
+A.
+(Sinal de mais)
+
+
+B.
+? (Ponto de interrogação)
+
+
+C.
+(Asterisco)
+
+
+D.
+(Cerquilha)
+
+///////////////////
+
+5.
+O que acontece com uma mensagem marcada com a flag 'Retain'?
+
+
+A.
+Ela impede que outros clientes publiquem no mesmo tópico.
+
+
+B.
+A mensagem é criptografada automaticamente pelo Mosquitto.
+
+
+C.
+O broker armazena a última mensagem desse tópico e a envia a novos assinantes assim que eles se conectarem.
+
+
+D.
+Ela é descartada imediatamente após o envio.
+
+/////////////////
+
+6.
+Qual porta padrão é utilizada pelo broker Mosquitto para conexões MQTT sem TLS?
+
+
+A.
+80
+
+
+B.
+8883
+
+
+C.
+1883
+
+
+D.
+3306
+
+////////////////////
+
+7.
+Qual comando do pacote Mosquitto é usado no terminal para ASSINAR um tópico?
+
+
+A.
+mosquitto_sub
+
+
+B.
+mosquitto_pub
+
+
+C.
+mosquitto_get
+
+
+D.
+mosquitto_listen
+
+////////////////////
+
+8.
+Qual é a principal vantagem do MQTT sobre o protocolo HTTP para sensores IoT alimentados por bateria?
+
+
+A.
+Capacidade de executar scripts no lado do servidor.
+
+
+B.
+Menor overhead de cabeçalho e manutenção de conexão persistente eficiente.
+
+
+C.
+Criptografia nativa mais forte que o HTTPS.
+
+
+D.
+Suporte a vídeos em alta definição.
+
+///////////////////
+
+9.
+O que define uma 'Clean Session' no momento da conexão do cliente?
+
+
+A.
+Reinicia o hardware do sensor remotamente.
+
+
+B.
+Limpa todos os logs do broker Mosquitto.
+
+
+C.
+Indica se o broker deve descartar informações de assinaturas e mensagens pendentes ao desconectar.
+
+
+D.
+Apaga o banco de dados de usuários do Mosquitto.
+
+///////////////////////
+
+10.
+Qual destes tópicos seria capturado por uma assinatura no tópico 'casa/+/temperatura'?
+
+
+A.
+casa/temperatura
+
+
+B.
+casa/sala/quarto/temperatura
+
+
+C.
+rua/sala/temperatura
+
+
+D.
+casa/sala/temperatura
