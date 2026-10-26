@@ -10,8 +10,8 @@
 #include <PubSubClient.h>
 
 // Configurações de Rede e Broker
-const char* ssid = "prtcandido";
-const char* password = "Abc123Xyz";
+const char* ssid = "nome rede wifi";
+const char* password = "senha rede wifi";
 const char* mqtt_server = "broker.hivemq.com";
 
 WiFiClient espClient;
@@ -75,7 +75,8 @@ void loop() {
     lastMsg = now;
     value++;
     
-    String payload = "Temperatura: " + String(random(20, 30)) + "C (Msg: " + String(value) + ")";
+    //String payload = "Temperatura: " + String(random(20, 30)) + "C (Msg: " + String(value) + ")";
+    String payload = String(random(20, 30));
     
     Serial.print("Publicando mensagem: ");
     Serial.println(payload);

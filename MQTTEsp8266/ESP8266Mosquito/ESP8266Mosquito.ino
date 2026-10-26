@@ -10,8 +10,8 @@
 #include <PubSubClient.h>
 
 // Configurações de Rede e Broker
-const char* ssid = "prtcandido";
-const char* password = "Abc123Xyz";
+const char* ssid = "nome rede wifi";
+const char* password = "nome rede wifi";
 const char* mqtt_server = "broker.hivemq.com";
 
 WiFiClient espClient;
